@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default function create-user.component() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default class CreateExercise extends Component {
+    render() {
+        return (
+            <div>
+                <p>You are on the Create Exercises component!</p>
+            </div>
+        )
+    }
 }
